@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+.site-header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px; /* Padding inside the header */
+  margin-bottom: 20px; /* Space below the header */
+  border: 3px solid #388E3C; /* Border around header */
+}
+
+/* Navigation */
+.navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0 0 30px 0; /* Bottom margin to separate from content */
+  background-color: #333;
+}
+
+.navigation li {
+  margin: 0 15px; /* Margin between list items */
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px; /* Padding inside links */
+  display: block;
+}
+
+.navigation a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* Content Cards */
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 20px; /* Outer margin for content section */
+}
+
+.card {
+  background-color: white;
+  border: 2px solid #ccc; /* Border demonstrates box model */
+  padding: 20px; /* Space inside card */
+  margin: 15px; /* Space between cards */
+  width: 300px;
+  box-sizing: border-box; /* Includes padding and border in width */
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.card button {
+  padding: 10px 20px;
+  margin-top: 10px; /* Space above button */
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #388E3C;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  border-top: 3px solid #4CAF50;
+}
